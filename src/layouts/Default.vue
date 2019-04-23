@@ -22,9 +22,9 @@
             <a v-if="$route.path === '/'" href="/#about" v-scroll-to="'#about'" class="text-gray-800 hover:text-gray-600">About</a>
             <g-link v-else to="/#about" class="text-gray-800 hover:text-gray-600">About</g-link>
           </li>
+
           <li class="mr-8 mb-6 sm:mb-0">
-            <a v-if="$route.path === '/'" href="/#contact" v-scroll-to="'#contact'" class="text-gray-800 hover:text-gray-600">Contact</a>
-            <g-link v-else to="/#contact" class="text-gray-800 hover:text-gray-600">Contact</g-link>
+            <g-link to="/run" class="text-gray-800 hover:text-gray-600">Run</g-link>
           </li>
           <li>
             <g-link to="/blog" class="text-gray-800 hover:text-gray-600">Blog</g-link>

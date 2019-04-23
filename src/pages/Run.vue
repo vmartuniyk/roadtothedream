@@ -3,7 +3,7 @@
     <div class="hero container-inner mx-auto flex flex-col sm:flex-row justify-between py-16">
       <div class="text-4xl font-bold w-full sm:w-3/5 text-center sm:text-left">
         <div class="leading-tight">Мартинюк Володимир</div>
-        <div class="text-green-700 leading-tight">Powered by Vue.js &amp Tailwind 1.0</div>
+        <div class="text-green-700 leading-tight">Бігаю полумарафони &amp в майбутньому марафони</div>
       </div>
       <div class="mt-8 sm:mt-0">
         <g-image src="../../static/developer.svg" alt="hero" class="mx-auto sm:mx-0" />
@@ -11,43 +11,52 @@
     </div> <!-- end hero -->
 
     <div class="container-inner mx-auto">
-      <p class="text-lg sm:text-xl">This gridsome theme was forked from my <a href="https://andremadarang.com">personal website</a>. I added more features and decided to release it as an open source project. Check it out on <a href="https://github.com/drehimself/gridsome-portfolio-starter">GitHub</a> or check out the <a href="https://www.youtube.com/watch?v=uHo6o1TNQeE">screencast I did</a>. Feel free to use it for your own site or projects! Lorem, ipsum dolor sit amet consectetur adipisicing elit. Minima, repellat. Dolores iure, quas perspiciatis rerum quaerat atque eum repellat autem.</p>
+      <p class="text-lg sm:text-xl">Як дізнатися де твої ліміти? А якщо їх взагалі не існує. Раніше я
+      думав що пробігти 21 км складно а насправді просто потрібно тренуватися а інколи дуже багато тренуватися.
+      Теж саме щоб подолати 42 км. А якщо можна більше? то чому б не спробувати</p>
 
       <div class="flex justify-between items-center py-6">
         <div class="w-full sm:w-1/2 px-8 py-8 sm:py-0">
-          <g-image src="../../static/mind_map.svg" alt="browser" />
+          <g-image src="../../static/visual_data.svg" alt="browser" />
         </div>
         <div class="w-1/2 px-8 hidden sm:flex justify-end">
-          <g-image src="../../static/code_review.svg" alt="mobile" />
+          <g-image src="../../static/finish_line.svg" alt="mobile" />
         </div>
       </div>
     </div>
 
     <div class="overflow-x-hidden">
       <div class="projects container-inner mx-auto text-xl border-t border-gray-500 border-b py-16 mb-16 relative">
-        <h2 class="font-bold mb-6" id="projects">Here are some projects I've worked on:</h2>
+        <h2 class="font-bold mb-6" id="projects">Старти в яких я приймав участь:</h2>
 
         <div class="absolute right-0" style="top: 50px; transform: translate(100%) rotate(180deg)">
           <svg width="170px" height="170px"><use xlink:href="#dots-triangle" /></svg>
         </div>
 
         <ul class="text-lg sm:text-xl">
+        <li class="checkmark mb-6">
+          <div><a href="https://runstyle.net/events/rivne-st-mykolas-run-2018/"> Rivne St.Mykolas Run 2018 16.12.2018</a>(8K 34:29  Place 8 Pace 4:19)</div>
+          <div class="text-lg text-gray-600">ІІІ-ий Благодійний забіг RIVNE ST.MYKOLAS RUN 2018 – це традиційний забіг Святого Миколая, який ставить за мету зібрати кошти на купівлю шприцевих насосів для Рівненської обласної дитячої лікарні.</div>
+        </li>
           <li class="checkmark mb-6">
-            <div>Project One</div>
-            <div class="text-lg text-gray-600">Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui ab nam animi iure nemo exercitationem a, eius non culpa itaque!</div>
+            <div><a href="https://runstyle.net/events/pokrova-half-marathon-2018/">POKROVA HALF MARATHON 14.10.2018</a>(21K 1:32:11  Place 10 Pace 4:23)</div>
+            <div class="text-lg text-gray-600"> І-й благодійний забіг, приурочений до Дня захисника України та свята Покрови Пресвятої Богородиці.</div>
           </li>
           <li class="checkmark mb-6">
-            <div>Project Two</div>
-            <div class="text-lg text-gray-600">Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui ab nam animi iure nemo exercitationem a, eius non culpa itaque!</div>
+            <div>XXXII традиційний забіг "Сильні духом 2018 (21K 1:43:07 Place 4 Pace 4:48)</div>
+            <div class="text-lg text-gray-600">ХХХІІ легкоатлетичний  забіг «Сильні духом – 2018» в м. Рівне проводиться з метою:
+-    популяризації здорового способу життя;
+-	залучення до активного способу життя, занять фізичною культурою і спортом;</div>
           </li>
           <li class="checkmark mb-6">
-            <div>Project Three</div>
-            <div class="text-lg text-gray-600">Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui ab nam animi iure nemo exercitationem a, eius non culpa itaque!</div>
+            <div><a href="https://runstyle.net/events/rivne-night-run-2018/">Rivne Night Run 2018 14.07.2018</a>(6K 22:32 Place 13 Pace 3:57)</div>
+            <div class="text-lg text-gray-600">Rivne Night Run 2018.</div>
           </li>
           <li class="checkmark mb-6">
-            <div>Project Four</div>
-            <div class="text-lg text-gray-600">Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui ab nam animi iure nemo exercitationem a, eius non culpa itaque!</div>
+          <div><a href="https://runstyle.net/events/rivne-euro-run-2018/">Rivne Euro Run 2018 19.05.2018</a>(6K 26:13  17 Place Pace 4:22)</div>
+          <div class="text-lg text-gray-600">RivneEuroRun 2018 – це ІІ-ий традиційний забіг, присвячений Дню Європи.</div>
           </li>
+
 
         </ul>
       </div> <!-- end projects -->
